@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A7CE6C515F550C900E7A553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7CE6C415F550C900E7A553 /* UIKit.framework */; };
+		0A7CE6C715F550C900E7A553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7CE6C615F550C900E7A553 /* Foundation.framework */; };
+		0A7CE6C915F550C900E7A553 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7CE6C815F550C900E7A553 /* CoreGraphics.framework */; };
+		0A7CE6CF15F550C900E7A553 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A7CE6CD15F550C900E7A553 /* InfoPlist.strings */; };
+		0A7CE6D115F550C900E7A553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CE6D015F550C900E7A553 /* main.m */; };
+		0A7CE6D515F550C900E7A553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CE6D415F550C900E7A553 /* AppDelegate.m */; };
+		0A7CE6D815F550C900E7A553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CE6D715F550C900E7A553 /* ViewController.m */; };
+		0A7CE6DB15F550C900E7A553 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7CE6D915F550C900E7A553 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A7CE6C015F550C900E7A553 /* geofencedemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geofencedemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7CE6C415F550C900E7A553 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A7CE6C615F550C900E7A553 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A7CE6C815F550C900E7A553 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A7CE6CC15F550C900E7A553 /* geofencedemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "geofencedemo-Info.plist"; sourceTree = "<group>"; };
+		0A7CE6CE15F550C900E7A553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A7CE6D015F550C900E7A553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A7CE6D215F550C900E7A553 /* geofencedemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "geofencedemo-Prefix.pch"; sourceTree = "<group>"; };
+		0A7CE6D315F550C900E7A553 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A7CE6D415F550C900E7A553 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A7CE6D615F550C900E7A553 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A7CE6D715F550C900E7A553 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A7CE6DA15F550C900E7A553 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A7CE6BD15F550C900E7A553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7CE6C515F550C900E7A553 /* UIKit.framework in Frameworks */,
+				0A7CE6C715F550C900E7A553 /* Foundation.framework in Frameworks */,
+				0A7CE6C915F550C900E7A553 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7CE6B515F550C900E7A553 = {
+			isa = PBXGroup;
+			children = (
+				0A7CE6CA15F550C900E7A553 /* geofencedemo */,
+				0A7CE6C315F550C900E7A553 /* Frameworks */,
+				0A7CE6C115F550C900E7A553 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A7CE6C115F550C900E7A553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A7CE6C015F550C900E7A553 /* geofencedemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A7CE6C315F550C900E7A553 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A7CE6C415F550C900E7A553 /* UIKit.framework */,
+				0A7CE6C615F550C900E7A553 /* Foundation.framework */,
+				0A7CE6C815F550C900E7A553 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A7CE6CA15F550C900E7A553 /* geofencedemo */ = {
+			isa = PBXGroup;
+			children = (
+				0A7CE6D315F550C900E7A553 /* AppDelegate.h */,
+				0A7CE6D415F550C900E7A553 /* AppDelegate.m */,
+				0A7CE6D615F550C900E7A553 /* ViewController.h */,
+				0A7CE6D715F550C900E7A553 /* ViewController.m */,
+				0A7CE6D915F550C900E7A553 /* ViewController.xib */,
+				0A7CE6CB15F550C900E7A553 /* Supporting Files */,
+			);
+			path = geofencedemo;
+			sourceTree = "<group>";
+		};
+		0A7CE6CB15F550C900E7A553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A7CE6CC15F550C900E7A553 /* geofencedemo-Info.plist */,
+				0A7CE6CD15F550C900E7A553 /* InfoPlist.strings */,
+				0A7CE6D015F550C900E7A553 /* main.m */,
+				0A7CE6D215F550C900E7A553 /* geofencedemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A7CE6BF15F550C900E7A553 /* geofencedemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7CE6DE15F550C900E7A553 /* Build configuration list for PBXNativeTarget "geofencedemo" */;
+			buildPhases = (
+				0A7CE6BC15F550C900E7A553 /* Sources */,
+				0A7CE6BD15F550C900E7A553 /* Frameworks */,
+				0A7CE6BE15F550C900E7A553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geofencedemo;
+			productName = geofencedemo;
+			productReference = 0A7CE6C015F550C900E7A553 /* geofencedemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A7CE6B715F550C900E7A553 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Kevin McMahon";
+			};
+			buildConfigurationList = 0A7CE6BA15F550C900E7A553 /* Build configuration list for PBXProject "geofencedemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A7CE6B515F550C900E7A553;
+			productRefGroup = 0A7CE6C115F550C900E7A553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A7CE6BF15F550C900E7A553 /* geofencedemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A7CE6BE15F550C900E7A553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7CE6CF15F550C900E7A553 /* InfoPlist.strings in Resources */,
+				0A7CE6DB15F550C900E7A553 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A7CE6BC15F550C900E7A553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7CE6D115F550C900E7A553 /* main.m in Sources */,
+				0A7CE6D515F550C900E7A553 /* AppDelegate.m in Sources */,
+				0A7CE6D815F550C900E7A553 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A7CE6CD15F550C900E7A553 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7CE6CE15F550C900E7A553 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A7CE6D915F550C900E7A553 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7CE6DA15F550C900E7A553 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A7CE6DC15F550C900E7A553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A7CE6DD15F550C900E7A553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A7CE6DF15F550C900E7A553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geofencedemo/geofencedemo-Prefix.pch";
+				INFOPLIST_FILE = "geofencedemo/geofencedemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A7CE6E015F550C900E7A553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geofencedemo/geofencedemo-Prefix.pch";
+				INFOPLIST_FILE = "geofencedemo/geofencedemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A7CE6BA15F550C900E7A553 /* Build configuration list for PBXProject "geofencedemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7CE6DC15F550C900E7A553 /* Debug */,
+				0A7CE6DD15F550C900E7A553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7CE6DE15F550C900E7A553 /* Build configuration list for PBXNativeTarget "geofencedemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7CE6DF15F550C900E7A553 /* Debug */,
+				0A7CE6E015F550C900E7A553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A7CE6B715F550C900E7A553 /* Project object */;
+}
