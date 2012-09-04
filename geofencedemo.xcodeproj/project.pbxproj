@@ -15,6 +15,13 @@
 		0A7CE6D515F550C900E7A553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CE6D415F550C900E7A553 /* AppDelegate.m */; };
 		0A7CE6D815F550C900E7A553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CE6D715F550C900E7A553 /* ViewController.m */; };
 		0A7CE6DB15F550C900E7A553 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7CE6D915F550C900E7A553 /* ViewController.xib */; };
+		0A7CE6E215F5517500E7A553 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7CE6E115F5517500E7A553 /* CoreLocation.framework */; };
+		0A7CE6E415F5518100E7A553 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7CE6E315F5518100E7A553 /* MapKit.framework */; };
+		0A7CE6E615F55DDA00E7A553 /* regions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A7CE6E515F55DDA00E7A553 /* regions.plist */; };
+		0AAC998415F58B45003D1420 /* DemoStart.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0AAC997E15F58B45003D1420 /* DemoStart.gpx */; };
+		0AAC998515F58B45003D1420 /* WalkToMilleniumPark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0AAC997F15F58B45003D1420 /* WalkToMilleniumPark.gpx */; };
+		0AAC998A15F58B7D003D1420 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AAC998915F58B7D003D1420 /* Icon.png */; };
+		0AAC998C15F58B89003D1420 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AAC998B15F58B89003D1420 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,17 @@
 		0A7CE6D615F550C900E7A553 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0A7CE6D715F550C900E7A553 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A7CE6DA15F550C900E7A553 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0A7CE6E115F5517500E7A553 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0A7CE6E315F5518100E7A553 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0A7CE6E515F55DDA00E7A553 /* regions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = regions.plist; sourceTree = "<group>"; };
+		0AAC997915F58A0F003D1420 /* UnitedCenter.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = UnitedCenter.gpx; path = GPX/UnitedCenter.gpx; sourceTree = "<group>"; };
+		0AAC997E15F58B45003D1420 /* DemoStart.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DemoStart.gpx; sourceTree = "<group>"; };
+		0AAC997F15F58B45003D1420 /* WalkToMilleniumPark.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = WalkToMilleniumPark.gpx; sourceTree = "<group>"; };
+		0AAC998915F58B7D003D1420 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0AAC998B15F58B89003D1420 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0AAC998D15F58C13003D1420 /* ChicagoTheater.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ChicagoTheater.gpx; sourceTree = "<group>"; };
+		0AAC998E15F590B3003D1420 /* WillisTower.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WillisTower.gpx; sourceTree = "<group>"; };
+		0AAC998F15F59107003D1420 /* LincolnParkZoo.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LincolnParkZoo.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7CE6E415F5518100E7A553 /* MapKit.framework in Frameworks */,
+				0A7CE6E215F5517500E7A553 /* CoreLocation.framework in Frameworks */,
 				0A7CE6C515F550C900E7A553 /* UIKit.framework in Frameworks */,
 				0A7CE6C715F550C900E7A553 /* Foundation.framework in Frameworks */,
 				0A7CE6C915F550C900E7A553 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +70,8 @@
 		0A7CE6B515F550C900E7A553 = {
 			isa = PBXGroup;
 			children = (
+				0AAC998B15F58B89003D1420 /* Icon@2x.png */,
+				0AAC998915F58B7D003D1420 /* Icon.png */,
 				0A7CE6CA15F550C900E7A553 /* geofencedemo */,
 				0A7CE6C315F550C900E7A553 /* Frameworks */,
 				0A7CE6C115F550C900E7A553 /* Products */,
@@ -67,6 +89,8 @@
 		0A7CE6C315F550C900E7A553 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A7CE6E315F5518100E7A553 /* MapKit.framework */,
+				0A7CE6E115F5517500E7A553 /* CoreLocation.framework */,
 				0A7CE6C415F550C900E7A553 /* UIKit.framework */,
 				0A7CE6C615F550C900E7A553 /* Foundation.framework */,
 				0A7CE6C815F550C900E7A553 /* CoreGraphics.framework */,
@@ -77,6 +101,7 @@
 		0A7CE6CA15F550C900E7A553 /* geofencedemo */ = {
 			isa = PBXGroup;
 			children = (
+				0AAC997B15F58AED003D1420 /* GPX */,
 				0A7CE6D315F550C900E7A553 /* AppDelegate.h */,
 				0A7CE6D415F550C900E7A553 /* AppDelegate.m */,
 				0A7CE6D615F550C900E7A553 /* ViewController.h */,
@@ -94,8 +119,22 @@
 				0A7CE6CD15F550C900E7A553 /* InfoPlist.strings */,
 				0A7CE6D015F550C900E7A553 /* main.m */,
 				0A7CE6D215F550C900E7A553 /* geofencedemo-Prefix.pch */,
+				0A7CE6E515F55DDA00E7A553 /* regions.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AAC997B15F58AED003D1420 /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				0AAC997E15F58B45003D1420 /* DemoStart.gpx */,
+				0AAC997F15F58B45003D1420 /* WalkToMilleniumPark.gpx */,
+				0AAC997915F58A0F003D1420 /* UnitedCenter.gpx */,
+				0AAC998D15F58C13003D1420 /* ChicagoTheater.gpx */,
+				0AAC998E15F590B3003D1420 /* WillisTower.gpx */,
+				0AAC998F15F59107003D1420 /* LincolnParkZoo.gpx */,
+			);
+			name = GPX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +190,11 @@
 			files = (
 				0A7CE6CF15F550C900E7A553 /* InfoPlist.strings in Resources */,
 				0A7CE6DB15F550C900E7A553 /* ViewController.xib in Resources */,
+				0A7CE6E615F55DDA00E7A553 /* regions.plist in Resources */,
+				0AAC998415F58B45003D1420 /* DemoStart.gpx in Resources */,
+				0AAC998515F58B45003D1420 /* WalkToMilleniumPark.gpx in Resources */,
+				0AAC998A15F58B7D003D1420 /* Icon.png in Resources */,
+				0AAC998C15F58B89003D1420 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +323,7 @@
 				0A7CE6E015F550C900E7A553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
